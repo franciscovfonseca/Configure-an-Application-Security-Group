@@ -27,10 +27,8 @@ You are a Security Engineer with an organization that needs to **Create an Azure
 
 <br>
 
-<br>
-
 <p align="center">
-<img src="https://github.com/user-attachments/assets/570b8877-b28c-4558-9e91-037632da4a3e" height="40%" width="40%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/759a2bdd-036d-4910-acd5-17635abeb6c0" height="40%" width="40%" alt="9"/><br />
 <br>
 
 <br>
