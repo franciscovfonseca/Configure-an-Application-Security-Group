@@ -42,17 +42,17 @@ You are a Security Engineer with an organization that needs to **Create an Azure
 
 In the Azure portal, select Create a resource to display the Azure Marketplace.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5b9a2405-7215-4592-95f3-363c871949ef" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/659812bd-da87-4a9b-90b3-0a0f2307eb58" height="100%" width="100%" alt="9"/><br />
 <br>
 
 In Search services and marketplace, search for and select Virtual Network, and then select Create.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5b9a2405-7215-4592-95f3-363c871949ef" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/98344b2c-0538-4269-a4f3-5eb0c21f0443" height="50%" width="50%" alt="9"/><br />
 <br>
 
 On the Create virtual network blade, on the Basics page, in Resource group, select corp-datalod42364539, in Virtual network name, enter webVNET, and then on the command bar, select IP Addresses.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5b9a2405-7215-4592-95f3-363c871949ef" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/544520cb-ac9c-4af5-83ff-680f92385de4" height="70%" width="70%" alt="9"/><br />
 <br>
 
 On the IP Addresses page, in IPv4 address space, select the existing address space 10.0.0.0/16, enter 10.10.0.0/16 to overwrite the value.
@@ -63,21 +63,21 @@ On the IP Addresses page, in Subnets, select the Trash icon to delete the existi
 
 Select Add a subnet to open the Add a subnet blade.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5b9a2405-7215-4592-95f3-363c871949ef" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/4c0c7b46-f5a5-43f4-aad5-1c67749ab691" height="70%" width="70%" alt="9"/><br />
 <br>
 
 On the Add a subnet blade, in Name, enter web, in Starting address, enter 10.10.0.0/25, and then select Add.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5b9a2405-7215-4592-95f3-363c871949ef" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/b29b8446-c473-449c-9b09-ca956ee980c2" height="70%" width="70%" alt="9"/><br />
 <br>
 
 On the Create virtual network blade, select Review + create, and then select Create to create the virtual network.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5b9a2405-7215-4592-95f3-363c871949ef" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/1b0e1d59-d44a-4c17-a50a-8e0a2353bb8b" height="70%" width="70%" alt="9"/><br />
 <br>
 
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5b9a2405-7215-4592-95f3-363c871949ef" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/d144de8c-58b3-4700-b3b4-53bcda203f56" height="80%" width="80%" alt="9"/><br />
 <br>
 
 ✅ You will use this **Virtual Network** for the **Web Tier**.
@@ -94,9 +94,9 @@ You can use an Azure virtual network to create a network address space in the cl
 
 - virtual machines
 - load balancers
-- and application gateways
+- or application gateways
 
-➔ for secure access from on-premises networks and other virtual networks.
+for secure access from on-premises networks and other virtual networks.
 
   </details>
 
@@ -116,11 +116,11 @@ On the Azure portal menu, select Create a resource to display the Azure Marketpl
   
 In Search services and marketplace, search for and select Application security group, and then select Create.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/73ff3c87-d81d-4db6-963c-f899bfbb37ae" height="100%" width="100%" alt="9"/><br />
 <br>
 
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/640609a4-4758-4232-874c-f35308783bd8" height="50%" width="50%" alt="9"/><br />
 <br>
   
 On the Create an application security group blade, in Resource group, select corp-datalod42364539, and then in Name, enter webASG.
@@ -128,7 +128,7 @@ On the Create an application security group blade, in Resource group, select cor
 
 Select Review + create, and then select Create to create the application security group.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/086c6bd1-2865-473d-a23a-c25722cb2396" height="70%" width="70%" alt="9"/><br />
 <br>
 
 
@@ -140,16 +140,13 @@ Select Review + create, and then select Create to create the application securit
 
 <br>
 
-On the Azure portal menu, select Create a resource to display the Azure Marketplace.
-<br>
-
-In Search services and marketplace, search for and select Network security group, and then select Create.createnetworksecuritygroups.jpg
+On the Azure portal menu, search for and select Network security group, and then select Create.c
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/0d1bb829-b303-42bf-8d7d-bc632bee6d19" height="100%" width="100%" alt="9"/><br />
 <br>
 
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/8144dff0-0942-415d-a5b2-9cb414b84212" height="50%" width="50%" alt="9"/><br />
 <br>
 
 On the Create an network security group blade, in Resource group, select corp-datalod42364539, and then in Name, enter webNSG.
@@ -157,7 +154,7 @@ On the Create an network security group blade, in Resource group, select corp-da
 
 Select Review + create, and then select Create to create the network security group.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/a5699371-9580-4198-9b8e-2cd97b3d38b7" height="80%" width="80%" alt="9"/><br />
 <br>
 
 
@@ -165,33 +162,37 @@ Select Review + create, and then select Create to create the network security gr
 <h2></h2>
 <br>
 
-### Step ❸ ➔ Add an Inbound Security Rule to *webNSG* to allow HTTP and HTTPS Traffic 
+### Step ❸ ➔ Add an Inbound Security Rule to allow HTTP and HTTPS Traffic 
 
 <br>
 
 On the Azure portal menu, select All services, in Categories, select Networking, and then select Network security groups.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/634c7b3d-b99a-47e4-aa8e-ed6cebb55262" height="100%" width="100%" alt="9"/><br />
+<br>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3b68ecc3-75e9-4d1c-bd36-dae6f823e880" height="100%" width="100%" alt="9"/><br />
 <br>
 
 On the Network security groups page, select webNSG.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/9f75f89c-1ae3-4966-bb09-723c61acf623" height="50%" width="50%" alt="9"/><br />
 <br>
 
 On the webNSG resource menu, in Settings, select Inbound security rules, and then on the command bar, select Add.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/2bf58353-b296-4464-b307-3bb5e46f1e40" height="70%" width="70%" alt="9"/><br />
 <br>
 
 On the Add inbound security rule blade, in Destination, select Application security group, and then in Destination application security groups, select webASG.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/27b943cb-b93a-4bcc-b791-7ffbc1198b12" height="70%" width="70%" alt="9"/><br />
 <br>
 
 In Destination port ranges, enter 80,443, in Name, enter AllowAllweb, and then select Add to add the inbound security rule.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/211858d8-7573-4c9e-ab4f-b2ee5b83a1b7" height="70%" width="70%" alt="9"/><br />
 <br>
 
 ⚠️ Wait for the new inbound security rule to be created ➔ This will take approximately 1–2 minutes.
@@ -202,7 +203,7 @@ In Destination port ranges, enter 80,443, in Name, enter AllowAllweb, and then s
 <h2></h2>
 <br>
 
-### Step ❹ ➔ Add a second Inbound Security Rule to *webNSG* to allow RDP Traffic 
+### Step ❹ ➔ Add a second Inbound Security Rule to allow RDP Traffic 
 
 <br>
 
@@ -211,7 +212,7 @@ On the Add inbound security rule blade, in Destination, select **Application sec
 
 In Destination port ranges, enter ***🆃 3389***, in Name, enter ***🆃 AllowAllRDP***, and then select **Add** to add the second inbound security rule.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/e154fc75-9eb4-430d-804c-f65adbaa9471" height="70%" width="70%" alt="9"/><br />
 <br>
 
 ⚠️ Wait for the new inbound security rule to be created.
@@ -226,12 +227,12 @@ In Destination port ranges, enter ***🆃 3389***, in Name, enter ***🆃 AllowA
 
 On the webNSG resource menu, in Settings, select Subnets, and then on the command bar, select Associate.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/d027d8c2-b035-4f2a-93e3-d0b9c92a260f" height="70%" width="70%" alt="9"/><br />
 <br>
 
 On the Associate subnet blade, in Virtual network, select webVNET, in Subnet, select web, and then select OK to associate the network security group to the selected subnet.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/83d5df37-6cdb-4da2-8fa9-99a4fdb61607" height="100%" width="100%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/3942e314-f9de-4470-9be3-84b16c77a01e" height="60%" width="60%" alt="9"/><br />
 <br>
 
 ⚠️ Wait for the webNSG to be associated with the web subnet ➔ This will take approximately 1–2 minutes.
