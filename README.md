@@ -187,12 +187,12 @@ On the webNSG resource menu, in Settings, select Inbound security rules, and the
 
 On the Add inbound security rule blade, in Destination, select Application security group, and then in Destination application security groups, select webASG.
 <p align="center">
-<img src="https://github.com/user-attachments/assets/27b943cb-b93a-4bcc-b791-7ffbc1198b12" height="70%" width="70%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/27b943cb-b93a-4bcc-b791-7ffbc1198b12" height="60%" width="60%" alt="9"/><br />
 <br>
 
 In Destination port ranges, enter 80,443, in Name, enter AllowAllweb, and then select Add to add the inbound security rule.
 <p align="center">
-<img src="https://github.com/user-attachments/assets/211858d8-7573-4c9e-ab4f-b2ee5b83a1b7" height="70%" width="70%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/211858d8-7573-4c9e-ab4f-b2ee5b83a1b7" height="60%" width="60%" alt="9"/><br />
 <br>
 
 ⚠️ Wait for the new inbound security rule to be created ➔ This will take approximately 1–2 minutes.
@@ -212,7 +212,7 @@ On the Add inbound security rule blade, in Destination, select **Application sec
 
 In Destination port ranges, enter ***🆃 3389***, in Name, enter ***🆃 AllowAllRDP***, and then select **Add** to add the second inbound security rule.
 <p align="center">
-<img src="https://github.com/user-attachments/assets/e154fc75-9eb4-430d-804c-f65adbaa9471" height="70%" width="70%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/e154fc75-9eb4-430d-804c-f65adbaa9471" height="60%" width="60%" alt="9"/><br />
 <br>
 
 ⚠️ Wait for the new inbound security rule to be created.
@@ -227,12 +227,12 @@ In Destination port ranges, enter ***🆃 3389***, in Name, enter ***🆃 AllowA
 
 On the webNSG resource menu, in Settings, select Subnets, and then on the command bar, select Associate.
 <p align="center">
-<img src="https://github.com/user-attachments/assets/d027d8c2-b035-4f2a-93e3-d0b9c92a260f" height="70%" width="70%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/d027d8c2-b035-4f2a-93e3-d0b9c92a260f" height="60%" width="60%" alt="9"/><br />
 <br>
 
 On the Associate subnet blade, in Virtual network, select webVNET, in Subnet, select web, and then select OK to associate the network security group to the selected subnet.
 <p align="center">
-<img src="https://github.com/user-attachments/assets/3942e314-f9de-4470-9be3-84b16c77a01e" height="60%" width="60%" alt="9"/><br />
+<img src="https://github.com/user-attachments/assets/3942e314-f9de-4470-9be3-84b16c77a01e" height="50%" width="50%" alt="9"/><br />
 <br>
 
 ⚠️ Wait for the webNSG to be associated with the web subnet ➔ This will take approximately 1–2 minutes.
