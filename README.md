@@ -417,7 +417,7 @@ Close the Remote Desktop Connection window, and then select **OK** to disconnect
 <img src="https://github.com/user-attachments/assets/239c8c5c-3351-44a6-8b07-c8ee561a2bd8" height="100%" width="100%" alt="9"/><br />
 <br>
 
-Open a new browser window, and then go to the public IP address of VM1 at ***🆃 http://<PublicIP>***.
+Open a new browser window, and then go to the public IP address of VM1 at ***🆃 http://→PublicIP←***.
 <p align="center">
 <img src="https://github.com/user-attachments/assets/0f446605-547f-4b48-a152-a722319a0590" height="100%" width="100%" alt="9"/><br />
 <br>
@@ -443,7 +443,7 @@ Open a new browser window, and then go to the public IP address of VM1 at ***�
 
 We have accomplished the following:
 
-- **Created a virtual network for a web server tier**.
+- **Created a Virtual Network for a Web Server Tier**.
 
 - **Created an Application Security Group and associated Network Security Group**.
 
